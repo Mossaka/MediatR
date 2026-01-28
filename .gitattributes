@@ -23,3 +23,5 @@ core.eol crlf
 *.dbproj merge=union 
 *.sln merge=union
 *.slnx merge=union
+
+.github/workflows/*.lock.yml linguist-generated=true merge=ours
