@@ -13,6 +13,10 @@ network:
 runtimes:
   dotnet:
     version: "8.0"
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
 ---
 
 # Build and Test MediatR
