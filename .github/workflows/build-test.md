@@ -10,6 +10,9 @@ network:
     - github
     - nuget.org
     - api.nuget.org
+runtimes:
+  dotnet:
+    version: "8.0"
 ---
 
 # Build and Test MediatR
